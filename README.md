@@ -6,8 +6,13 @@ Compressed Sensing for Rapid Tabletop X-ray Absorption Spectroscopy
 
 ## Installation
 
+Prerequisites:
+
+* conda installed
+
+
 Set up a new environment using the requirements file with conda:
 
 ```
-conda create --name `<env>` --file requirements.txt
+conda env create -f environment.yml
 ```
